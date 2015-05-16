@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <dict>
+      <key>URL</key>
+      <string><%= @mobileconfig[:url] %></string>
+      <key>DeviceAttributes</key>
+      <array>
+        <string>UDID</string>
+        <string>IMEI</string>
+        <string>VERSION</string>
+        <string>PRODUCT</string>
+        <string>DEVICE_NAME</string>
+        <string>MEID</string>
+        <string>SERIAL</string>
+        <string>MAC_ADDRESS_EN0</string>
+      </array>
+    </dict>
+    <key>PayloadOrganization</key>
+    <string>yatemmma, inc.</string>
+    <key>PayloadDisplayName</key>
+    <string>yatemmma mobileconfig</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadUUID</key>
+    <string>DF355E45-8CC5-4500-B455-9826257AF93B</string>
+    <key>PayloadIdentifier</key>
+    <string>com.github.yatemmma</string>
+    <key>PayloadDescription</key>
+    <string></string>
+    <key>PayloadType</key>
+    <string>Profile Service</string>
+  </dict>
+</plist>
